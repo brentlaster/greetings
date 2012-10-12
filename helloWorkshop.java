@@ -2,13 +2,13 @@
 /* 9-12-12 */
 class helloWorkshop  {
     public static void main(String[] args) {
-        System.out.println("Hello Workshop!");
+        System.out.println("Greetings People!");
         System.out.println("This is an example file");
         System.out.println("for use in workshop exercises.");
-        System.out.println("This is on the master branch");
+        System.out.println("This is on the topic1 branch");
         System.out.println("This file is written in Java.");
         System.out.println("Isn't this exciting?");
-        System.out.println("No?");
+        System.out.println("Really?");
         System.out.println("Okay then.");
         System.out.println("Goodbye Workshop!");
     }
