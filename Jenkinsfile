@@ -11,7 +11,9 @@ node {
 	   }
 	stage('dump env') {
 	   s = env.JOB_NAME
-	   echo s
+	   String[] parts = s.split("/")
+	   String s2 = parts[1];
+	   echo s2
 	   }
 }
 
