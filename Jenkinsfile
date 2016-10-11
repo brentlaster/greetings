@@ -9,11 +9,11 @@ node {
 	stage('mirror repo') {
 	   echo internalGitURL
 	   }
-	stage('dump env') {
+	stage('construct internal url') {
 	   s = env.JOB_NAME
 	   String[] parts = s.split("/")
-	   String s2 = parts[1];
-	   echo s2
+	   String url = internalGitURL + parts[1];
+	   
 	   }
 }
 
