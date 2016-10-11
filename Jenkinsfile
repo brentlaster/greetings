@@ -13,6 +13,5 @@ node {
 	   s = env.JOB_NAME
 	   echo s
 	   }
-	}
 }
 
