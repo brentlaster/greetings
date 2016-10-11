@@ -11,7 +11,7 @@ node {
 	   }
 	stage('dump env') {
 	   bat 'set > env.txt'
-	   readFile('env.txt').split("\r?\n").each{
+	   readFile('env.txt').split("\n").each{
 	   	println it
 	   }
 	}
