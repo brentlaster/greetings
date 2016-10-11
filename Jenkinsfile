@@ -1,8 +1,9 @@
 #!groovy
 
-stage "get source" {
-
 node {
-	checkout scm
+		
+	stage('Get source') {
+	   checkout scm
+	}
 }
-}
+
