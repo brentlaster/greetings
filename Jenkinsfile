@@ -10,9 +10,8 @@ node {
 	   echo internalGitURL
 	   }
 	stage('dump env') {
-	   bat 'set > env.txt'
-	   readFile('env.txt').split("\n").each{
-	   	println it
+	   s = env.JOB_NAME
+	   echo s
 	   }
 	}
 }
