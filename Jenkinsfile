@@ -16,7 +16,7 @@ node {
 
 	   echo env.WORKSPACE
 	   echo internalGitURL+project_name
-	   sshagent (credentials: ['52c76d99-567b-40ca-947b-971297998997']) {
+	   sshagent (credentials: ['local_gerrit']) {
 			echo 'inside sshagent'	   
 			sh 'ssh -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/abc'
 	   }
