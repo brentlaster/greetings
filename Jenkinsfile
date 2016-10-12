@@ -15,7 +15,7 @@ node {
 	 stage('mirror updates') {
 
 	   echo env.WORKSPACE
-	   echo internalGitURL FromGitHub/project_name
+	   echo internalGitURL project_name
 	   sshagent (credentials: ['158a93e0-cdfc-4b02-aeab-2b46182ca80e']) {
 	   
 			sh 'ssh -p 29418 'internalGitURL' gerrit create-project FromGitHub/'project_name
