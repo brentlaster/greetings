@@ -22,9 +22,8 @@ node {
 			try {
 			sh 'ssh -o StrictHostKeyChecking=no -l diyuser -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
 			}
-			catch
-			{
-			}
+			catch ()
+			{}			
 			sh "git tag -a From_GitHub -m 'FromGitHub'"
             sh 'git push ssh://diyuser@localhost:29418/FromGitHub/greetings --tags'
 	   }
