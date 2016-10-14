@@ -20,7 +20,7 @@ node {
 	    sshagent (credentials: ['local_gerrit']) {
 			echo 'inside sshagent'	
 			try {
-			sh 'ssh -o StrictHostKeyChecking=no -l diyuser -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
+			sh 'ssh -o StrictHostKeyChecking=no -l '+authorized_user+' -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
 			}
 			catch (exc)
 			{}			
