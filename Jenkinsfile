@@ -20,7 +20,7 @@ node {
 	    sshagent (credentials: ['local_gerrit']) {
 			echo 'inside sshagent'	
 			try {
-			sh 'ssh -i /home/jenkins2/.ssh/gerritcdp_id_rsa -v -o StrictHostKeyChecking=no -l '+authorized_user+' -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
+			sh 'ssh -v -o StrictHostKeyChecking=no -l '+authorized_user+' -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
 			}
 			catch (exc)
 			{}			
