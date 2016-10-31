@@ -25,7 +25,7 @@ node {
 			catch (exc)
 			{}			
 			sh "git tag -a From_GitHub -m 'FromGitHub'"
-            sh 'git push ssh://diyuser@localhost:29418/FromGitHub/greetings --tags'
+#            sh 'git push ssh://diyuser@localhost:29418/FromGitHub/greetings --tags'
 	   }
 	
 	}
