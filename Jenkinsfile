@@ -22,12 +22,12 @@ node {
 	    sshagent (credentials: ['local_gerrit']) {
 			echo 'inside sshagent'	
 			try {
-			sh 'ssh -v -o StrictHostKeyChecking=no -l '+authorized_user+' -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
+#			sh 'ssh -v -o StrictHostKeyChecking=no -l '+authorized_user+' -p 29418 '+internalGitURL+' gerrit create-project FromGitHub/'+project_name
 			}
 			catch (exc)
 			{}			
 			sh "git tag -a From_GitHub -m 'FromGitHub'"
-            sh 'git push ssh://diyuser@localhost:29418/FromGitHub/greetings --tags'
+#            sh 'git push ssh://diyuser@localhost:29418/FromGitHub/greetings --tags'
 	   }
 	
 	}
