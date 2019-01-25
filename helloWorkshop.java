@@ -11,6 +11,6 @@ class helloWorkshop  {
         System.out.println("Isn't this exciting?");
         System.out.println("Maybe?");
         System.out.println("Okay then.");
-        System.out.println("Goodbye Workshop! Good Luck");
+        System.out.println("Goodbye Workshop! Good Luck! See you soon");
     }
 }
