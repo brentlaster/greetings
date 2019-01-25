@@ -10,7 +10,7 @@ class helloWorkshop  {
         System.out.println("Wow!");
         System.out.println("Isn't this exciting?");
         System.out.println("Maybe?");
-        System.out.println("Okay then.");
+        System.out.println("Okay then. Talk to you later");
         System.out.println("Goodbye Workshop! Good Luck! See you soon");
     }
 }
