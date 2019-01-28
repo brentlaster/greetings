@@ -7,7 +7,7 @@ class helloWorkshop  {
         System.out.println("for use in workshop exercises.");
         System.out.println("This is on the master branch");
         System.out.println("This file is written in Java.");
-        System.out.println("Wow!");
+        System.out.println("Wow! This is amazing!");
         System.out.println("Isn't this exciting? Yes, it is!");
         System.out.println("Maybe?");
         System.out.println("Okay then. Talk to you later! Have a great weekend");
