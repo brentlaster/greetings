@@ -3,7 +3,7 @@
 class helloWorkshop  {
     public static void main(String[] args) {
         System.out.println("Greetings Workshop!");
-        System.out.println("This is an example file");
+        System.out.println("This is an example Java file");
         System.out.println("for use in workshop exercises.");
         System.out.println("This is on the master branch");
         System.out.println("This file is written in Java.");
