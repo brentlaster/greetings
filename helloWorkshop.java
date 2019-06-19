@@ -8,7 +8,7 @@ class helloWorkshop  {
         System.out.println("This is on the master branch");
         System.out.println("This file is written in Java.");
         System.out.println("Wow! This is amazing! I love to code!");
-        System.out.println("Isn't this exciting? Yes, it is!");
+        System.out.println("Isn't this exciting? Yes, it is!!");
         System.out.println("Maybe?");
         System.out.println("Okay then. Talk to you later! Have a great weekend");
         System.out.println("Goodbye Workshop! Good Luck! See you soon. Hasta La Vista, baby");
