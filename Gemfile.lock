@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pg (1.1.4)
+    redis (4.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pg
+  redis
+
+RUBY VERSION
+   ruby 2.5.0p0
+
+BUNDLED WITH
+   1.16.1
